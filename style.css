@@ -1,0 +1,77 @@
+/* h1{ 
+    color:tomato;
+    background-color: slategray;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+   
+}
+p{
+    color:black;
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 1px;
+    column-count: 3;
+    column-gap: 50px;
+}
+ul{
+    /* border-width: 5px; 
+    border-style: solid;
+    border-color: brown;*/
+    /* border: 5px solid brown; 
+    border-left:5px dashed rgb(81, 118, 238);
+    border-bottom:5px solid rgb(228, 212, 214);
+    border-top:5px dotted blue;
+    border-right:5px dashed brown;
+}
+li{
+    list-style-type: square;
+    text-shadow: 3px 3px lightgray;
+}
+span{
+    display:inline-block;  
+    margin:20px;
+    padding:20px;
+}
+
+div{
+    border:20px solid red;
+    margin:20px;
+    padding:20px;
+}
+div.beuty{
+    color:rgb(10, 10, 10);
+}
+div .beuty{
+    color:rgb(235, 27, 27);
+}
+a[href="https://www.ethiopianairlines.com/"]{
+    background-color: rgb(53, 22, 155);
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+a[href*="about"]{
+    background-color: black;
+    color:white;
+    border: 2px dotted burlywood;
+}
+a[href$=".com"]{
+    background-color: azure;
+    color:black;
+    text-transform: capitalize;
+    border:2px solid blueviolet;
+}*/
+/* cascading inheritance */
+div{
+    color:brown;
+    border:2px solid darkblue;
+    margin:40px;
+    
+}
+p{
+    border:inherit;
+    margin: inherit;
+}
